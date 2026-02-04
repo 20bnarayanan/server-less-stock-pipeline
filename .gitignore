@@ -1,0 +1,53 @@
+############################
+# Frontend (Vite / React)
+############################
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+############################
+# Terraform
+############################
+.terraform/
+terraform/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+crash.log
+
+############################
+# Python
+############################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+.venv/
+venv/
+
+############################
+# Build / Artifacts
+############################
+build/
+layer/
+artifacts/*.tmp
+out.json
+response.json
+
+############################
+# Jupyter
+############################
+.ipynb_checkpoints/
+
+############################
+# OS / Editor
+############################
+.DS_Store
+.vscode/
+.idea/
