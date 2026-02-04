@@ -10,7 +10,7 @@ variable "massive_api_key" {
 
 variable "massive_base_url" {
   type    = string
-  default = "https://api.massive.com" # change if Massive docs use a different base
+  default = "https://api.massive.com" 
 }
 
 variable "predict_image_uri" {
